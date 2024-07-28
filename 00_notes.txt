@@ -1,0 +1,22 @@
+PHP is a serverside scripting language (here all required processing is done on the server and results are passed to client)
+
+PHP = PHP Hypertext Preprocessor
+
+WHY PHP?
+-> easy and easy to learn
+-> const efficient (bcoz opensource)
+-> object oriented programming (compact code)
+-> cross platform compatibility
+-> works with most of the serverside
+-> provides security by providing multiple secured layers
+-> huge community
+
+USE OF PHP
+-> CMS (content management system) ex. WordPress
+-> E-commerce Website
+-> Mail server
+-> Chatting Systems
+-> File Storage Systems
+-> ERP (Enterprise Resource Planning)
+-> CRM (Customer Relationship management)
+
