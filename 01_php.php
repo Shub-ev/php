@@ -9,7 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php // this is a php tag within which we will write out php code
+    <?php //opening tag
+        // this is a php tag within which we will write out php code
         echo "First PHP code in html using php tag"; 
         echo "<div style=\"background-color: red\">Text</div>";
     ?>
