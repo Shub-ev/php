@@ -23,4 +23,31 @@
     $assign /= 2;  // divide and assignment
     $assign %= 2;  // modulo assignment
     $assign ** 2;  // expo assignment
+
+    $assign = 10;
+
+    // **************  comparison operator   **************
+    echo "<br><br>";
+    // comparison returns 1 if true/ return ""/black if false
+    echo $assign == 10;  // returns 1
+    echo $assign == 12; // prints "" nothing as it results false
+    echo $assign === 10;  // striclty equal to (value as well as datatype should be same) // returns 1
+    echo $assign != 12; // not equal to // returns 1
+    echo $assign <> 12; // not equal to // returns 1
+    echo $assign !== '12'; // not equal and not type 
+    echo $assign > 10;  // returns ''
+    echo $assign < 10;  // returns ''
+    echo $assign <= 10;
+    echo $assign >= 10;
+    //space ship operator
+    echo $assign <=> 20; // -1, 0, 1 based on lesser equal and larger than
+
+
+    // **************  logical operator   **************
+    echo "<br><br>";
+    echo $assign && 1;
+    echo $assign and 1;
+    echo $assign || 0;
+    echo $assign or 0;
+    echo $assign xor $assign; // xor true + true == false...... false + false == false 
 ?>
