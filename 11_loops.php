@@ -20,5 +20,19 @@
     do{
         echo $b." ";
         $b--;
-    }while($b > 0)
+    }while($b > 0); 
+
+
+    // ********   for loop    ******** // (initialization, condition, increment)
+    $c = 10;
+    echo "<br>";
+    for($c; $c > 0; $c--){
+        echo $c." ";
+    }
+
+
+    // ********   for each    ********
+
+
+    // ********   nested loop    ******** // is nothing but loop in loop
 ?>
