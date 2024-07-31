@@ -23,6 +23,7 @@
     $assign /= 2;  // divide and assignment
     $assign %= 2;  // modulo assignment
     $assign ** 2;  // expo assignment
+    $assign .= "this is string concatination and assignment";
 
     $assign = 10;
 
