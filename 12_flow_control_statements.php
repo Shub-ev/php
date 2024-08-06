@@ -12,7 +12,7 @@
     while($a){
         if($a == 6){
             $a--;
-            continue; // this is a flow control statement this dosent allow firthur execution in current iteration and forces to next iteration
+            continue; // this is a flow control statement this dosent allow further execution in current iteration and forces to next iteration
         }
         if($a == 2){
             $a--;
