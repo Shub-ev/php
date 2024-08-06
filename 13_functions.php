@@ -23,4 +23,20 @@
         return $num1 + $num2;
     }
     echo add2(30)."<br>"; // if function takes 2 arguments then call should also contain 2 paras
+
+
+    // ******** 03 ********  passing values to the function as value and reference
+    $num5 = 10;
+    echo $num5.'<br>';
+    function func1($num5){
+        --$num5."<br>"; // makes 9
+    }
+    func1($num5);
+    echo $num5.'<br>'; // prints 10 because function updates copied value not actual value
+
+    function func2(&$num5){
+        --$num5."<br>"; // makes 9
+    }
+    func2($num5);
+    echo $num5.'<br>'; // again prints 9 because func2 updated reference of that value i.e. actual value 
 ?>
