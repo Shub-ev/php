@@ -39,4 +39,4 @@
     }
     func2($num5);
     echo $num5.'<br>'; // again prints 9 because func2 updated reference of that value i.e. actual value 
-?>
+?> 
